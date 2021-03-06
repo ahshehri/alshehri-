@@ -66,16 +66,18 @@ public class Floyd_Warshall {
 
     }
 
-    public static void printMatrix(int dist[][]) {
+    public static void printMatrix(int myMatrix[][]) {
         System.out.println("\n \t \t \t Itration number: " + x + "\n");
+	System.out.println("A\tB\tC\tD\tE\tF\tG\tH\tI\tJ\n");
+    
         for (int i = 0; i < n; ++i) {
 
             for (int j = 0; j < n; ++j) {
 
-                if (dist[i][j] == INF) {
+                if (myMatrix[i][j] == INF) {
                     System.out.print("∞   \t");
                 } else {
-                    System.out.print(dist[i][j] + "   \t");
+                    System.out.print(myMatrix[i][j] + "   \t");
                 }
 
             }
