@@ -31,7 +31,7 @@ public class phase2 {
             System.out.println("6. 10000 nodes and 15000 edges ");
             System.out.println("7. 10000 nodes and 25000 edges ");
             System.out.println("8. 20000 nodes and 200000 edges ");
-            System.out.println("9. 20000 nodes and 20000 edges ");
+            System.out.println("9. 20000 nodes and 300000 edges ");
             System.out.println("10. 50000 nodes and 1,000,000 edges ");
             System.out.println("11. Exit ");
             System.out.print("your choice is: ");
@@ -87,8 +87,8 @@ public class phase2 {
                     break;
 
                 case 9:
-                    // if user choose 20000 nodes and 200000 edges
-                    makeGraph(20000, 20000);
+                    // if user choose 20000 nodes and 300000 edges
+                    makeGraph(20000, 300000);
                     choicesAlgorithim();
                     break;
 
